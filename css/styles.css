@@ -1,0 +1,8 @@
+.btn {
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+#results {
+  display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>luck Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Luck Survey</h2>
+      </div>
+      <form id="luck_survey">
+        <div class="form-group well">
+          <h3>In the past year, have any of the following occurred? Check all that apply.</h3>
+          <!-- GOOD -->
+          <input type="checkbox" name="good" value="penny"> Have you picked up a penny that you found on the street?<br>
+          <input type="checkbox" name="good" value="horseshoe"> Do you have a horseshoe?<br>
+          <input type="checkbox" name="good" value="clover"> Have you plucked a four-leaf clover?<br>
+          <input type="checkbox" name="good" value="siblings"> Do you have six siblings?<br>
+          <input type="checkbox" name="good" value="star"> Have a seen a shooting star?<br>
+          <input type="checkbox" name="good" value="poop"> Has a bird pooped on you?<br>
+
+          <!-- NEUTRAL -->
+          <input type="checkbox" name="neutral" value="ghost"> Have you ever seen a ghost?<br>
+          <input type="checkbox" name="neutral" value="lottery"> Do you play the lottery?<br>
+          <input type="checkbox" name="neutral" value="pirate"> Have you angered a pirate?<br>
+          <input type="checkbox" name="neutral" value="sage"> Have you burned sage?<br>
+          <input type="checkbox" name="neutral" value="rich"> Are you rich?<br>
+          <input type="checkbox" name="neutral" value="candles"> Have you blown out candles?<br>
+
+          <!-- BAD -->
+          <input type="checkbox" name="bad" value="ladder"> Have you ever walked under a ladder?<br>
+          <input type="checkbox" name="bad" value="mirror"> Have you broken a mirror in the last seven years?<br>
+          <input type="checkbox" name="bad" value="graveyard"> Have you walked a graveyard lately?<br>
+          <input type="checkbox" name="bad" value="crack"> Have you stepped on a sidewalk crack?<br>
+          <input type="checkbox" name="bad" value="cat"> Has a black cat crossed your path?<br>
+          <input type="checkbox" name="bad" value="gypsy"> Have you angered a gypsy?<br>
+        </div>
+       <button type="submit" class="btn">Submit</button>
+      </form>
+      <span id="results">
+        <p><b>This is your fortune:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
